@@ -1,0 +1,19 @@
+{
+    "name": "YouTube Ad Blocker",
+    "version": "1.0",
+    "description": "I am bored and irritated by youtube ads so building an Ad Blocker extension!",
+    
+    "permissions": ["tabs", "activeTab"],
+    "content_scripts": [{
+        "js": ["main.js"],
+        "run_at": "document_idle",
+        "matches": ["https://www.youtube.com/*"]
+    }],
+
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Connect with me!"
+    },
+
+    "manifest_version": 3
+}

@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect with Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            background: linear-gradient(to bottom, #000000, #333333); /* Black to Gray gradient */
+            color: white; /* Text color */
+            height: 150px;
+            width: 200px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #popup-container {
+            max-width: 1000px; /* Adjust the max-width as needed */
+            margin: 0 auto;
+        }
+
+        #connect-text {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .custom-button {
+            color: white;
+            background: linear-gradient(to bottom, #3498db, #2980b9); /* Cyan to Blue gradient */
+            padding: 10px 24px;
+            margin: 8px auto;
+            display: flex;
+            align-items: center;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 300ms ease-in-out;
+        }
+
+        .custom-button .icon {
+            margin-left: 8px;
+        }
+
+        .custom-button:hover {
+            transform: scale(1.1);
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: space-around;
+            font-size: 24px;
+            margin: 20px;
+        }
+
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-icons a:hover {
+            color: #2980b9; /* Change color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div id="popup-container">
+        <p id="connect-text">Connect With Me!</p>
+        <div class="social-icons">
+            <a href="https://twitter.com/frozen_parantha" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/achhayapathak" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/achhayapathak" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:pathakachhaya@gmail.com" target="_blank" title="Email"><i class="far fa-envelope"></i></a>
+        </div>
+        <a href="https://donate.stripe.com/14kcQI22VgAfg0gdQQ" target="_blank" title="Donate"><button class="custom-button">Support Me <span class="icon"><i class="fas fa-hand-holding-heart"></i></span></button></a>
+    </div>
+</body>
+</html>
