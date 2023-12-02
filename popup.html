@@ -14,7 +14,7 @@
             margin: 0;
             background: linear-gradient(to bottom, #000000, #333333); /* Black to Gray gradient */
             color: white; /* Text color */
-            height: 150px;
+            height: 200px;
             width: 200px;
         }
 
@@ -28,7 +28,12 @@
         }
 
         #connect-text {
-            font-size: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        #ad-text {
+            font-size: 22px;
             font-weight: bold;
             margin-bottom: 20px;
         }
@@ -70,9 +75,11 @@
             color: #2980b9; /* Change color on hover */
         }
     </style>
+    <script src="popup.js" type="text/javascript"></script>
 </head>
 <body>
     <div id="popup-container">
+        <p id="ad-text">Adv Blocked: <span id="adText">0</span> </p>
         <p id="connect-text">Connect With Me!</p>
         <div class="social-icons">
             <a href="https://twitter.com/frozen_parantha" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
