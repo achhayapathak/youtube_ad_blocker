@@ -9,7 +9,7 @@ To run the extension locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   https://github.com/achhayapathak/youtube_ad_blocker
+   git clone https://github.com/achhayapathak/youtube_ad_blocker
 
    ```
 
